@@ -81,8 +81,14 @@ gain_annuel = invest * (taux_an / 100)
 print(f"Gain après retrait de 10% et diminution du taux de 1% : {gain_annuel} €")
 
 
+# Chaine qui détermine si e est présent
+chaine = input("Entrez une chaine de caractère ? :")
 
-
+#vérifier si le e est présent
+if "e" in chaine:
+    print("La lettre e est dans la chaine de caractères.")
+else:
+    print("La lettre e n'est pas présente dans la chaine de caractères.")
 
 
 
