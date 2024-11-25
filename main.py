@@ -74,6 +74,12 @@ invest += 5000
 taux_an += 2
 gain_annuel = invest * (taux_an / 100)
 print(f"Le gain annuel après augmentation est : {gain_annuel:.2f} €")
+#diminution du capital et du rendement
+invest *= 0.9
+taux_an -= 1
+gain_annuel = invest * (taux_an / 100)
+print(f"Gain après retrait de 10% et diminution du taux de 1% : {gain_annuel} €")
+
 
 
 
