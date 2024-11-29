@@ -36,6 +36,7 @@ print(quantite_stock)
 #quantite de stylos que veut l'utilisateur
 while True:
     quantite = input("Quelle quantité de sytlos voulez-vous : ")
+    #pour savoir si lal chaine de caractère est composée uniquement de chiffre
     if quantite.isdigit():
         # Conversion de l'entrée en entier si c'est bien un chiffre
         quantite = int(quantite)
